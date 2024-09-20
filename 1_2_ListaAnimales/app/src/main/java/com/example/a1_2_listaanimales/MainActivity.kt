@@ -1,7 +1,6 @@
 package com.example.a1_2_listaanimales
 
 import android.os.Bundle
-import android.widget.ArrayAdapter
 import android.widget.Button
 import android.widget.Spinner
 import android.widget.TextView
@@ -21,7 +20,6 @@ class MainActivity : AppCompatActivity() {
         val spinnerAnimal = findViewById<Spinner>(R.id.animal_list)
         val textAnimal = findViewById<TextView>(R.id.textAnimal)
 
-        // Listener for the button
         btnSend.setOnClickListener {
             val selectedAnimal = spinnerAnimal.selectedItem.toString()
             val typesArrayId = when (selectedAnimal) {
