@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">1_2_AnimalList</string>
+    <string name="send">Send</string>
+    <string name="textView">Search for animal subtypes</string>
+    <string-array name="listAnimals">
+        <item>Dog</item>
+        <item>Cat</item>
+        <item>Duck</item>
+    </string-array>
+</resources>

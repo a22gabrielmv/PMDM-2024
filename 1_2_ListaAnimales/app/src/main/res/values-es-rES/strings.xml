@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">1_2_ListaAnimales</string>
+    <string name="send">Enviar</string>
+    <string name="textView">Busca por subtipo de animal</string>
+    <string-array name="listAnimals">
+        <item>Perro</item>
+        <item>Gato</item>
+        <item>Pato</item>
+    </string-array>
+
+</resources>
