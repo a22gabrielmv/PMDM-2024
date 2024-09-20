@@ -8,19 +8,19 @@
         <item>Pájaro</item>
     </string-array>
 
-    <string-array name="typesPerro">
+    <string-array name="typesDog">
         <item>Labrador</item>
         <item>Beagle</item>
         <item>Pitbull</item>
     </string-array>
 
-    <string-array name="typesGato">
+    <string-array name="typesCat">
         <item>Siames</item>
         <item>Persa</item>
         <item>Angora</item>
     </string-array>
 
-    <string-array name="typesPajaro">
+    <string-array name="typesBird">
         <item>Canario</item>
         <item>Periquito</item>
         <item>Loro</item>
