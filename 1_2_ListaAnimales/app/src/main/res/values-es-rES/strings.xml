@@ -1,11 +1,28 @@
 <resources>
-    <string name="app_name">1_2_ListaAnimales</string>
-    <string name="send">Enviar</string>
-    <string name="textView">Busca por subtipo de animal</string>
+    <string name="app_name">1_2_AnimalList</string>
+    <string name="send">Send</string>
+    <string name="textView">Search for animal subtypes</string>
     <string-array name="listAnimals">
         <item>Perro</item>
         <item>Gato</item>
-        <item>Pato</item>
+        <item>Pájaro</item>
     </string-array>
 
+    <string-array name="typesPerro">
+        <item>Labrador</item>
+        <item>Beagle</item>
+        <item>Pitbull</item>
+    </string-array>
+
+    <string-array name="typesGato">
+        <item>Siames</item>
+        <item>Persa</item>
+        <item>Angora</item>
+    </string-array>
+
+    <string-array name="typesPajaro">
+        <item>Canario</item>
+        <item>Periquito</item>
+        <item>Loro</item>
+    </string-array>
 </resources>
