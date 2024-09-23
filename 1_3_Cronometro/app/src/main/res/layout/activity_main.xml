@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:gravity="center|top"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_margin="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Cronómetro"/>
+
+    <Chronometer
+        android:id="@+id/crono"
+        android:layout_margin="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp">
+
+
+    </Chronometer>
+
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_margin="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="100dp"
+        android:text="Start"
+
+        />
+
+    <Button
+        android:id="@+id/buttonPause"
+        android:layout_margin="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="100dp"
+
+        android:text="Pause" />
+
+    <Button
+        android:id="@+id/buttonRestart"
+        android:layout_margin="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="100dp"
+
+        android:text="Restart" />
+
+
+
+</LinearLayout>
