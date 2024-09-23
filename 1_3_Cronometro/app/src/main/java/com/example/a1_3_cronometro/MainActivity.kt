@@ -9,10 +9,21 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 class MainActivity : AppCompatActivity() {
+    val RUNNING_KEY="running"
+    val OFFSET_KEY="offset"
+    val BASE_KEY="base"
 
     private lateinit var chronometer: Chronometer
     private var pauseOffset: Long = 0
     private var isRunning: Boolean = false
+
+    override fun onSaveInstanceState(outState: Bundle) {
+        outState.putBoolean(RUNNING_KEY, isRunning)
+        outState.putLong(OFFSET_KEY, pauseOffset)
+        outState.putLong(BASE_KEY, chronometer.base)
+
+        super.onSaveInstanceState(outState)
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -28,6 +39,21 @@ class MainActivity : AppCompatActivity() {
         val buttonStart = findViewById<Button>(R.id.buttonStart)
         val buttonPause = findViewById<Button>(R.id.buttonPause)
         val buttonRestart = findViewById<Button>(R.id.buttonRestart)
+
+        if (savedInstanceState!=null){
+            pauseOffset=savedInstanceState.getLong(OFFSET_KEY)
+            isRunning=savedInstanceState.getBoolean(RUNNING_KEY)
+            if (isRunning){
+                chronometer.base=savedInstanceState.getLong(BASE_KEY)
+                chronometer.start()
+                pauseOffset=0
+            }
+            else{
+                //???
+                chronometer.base=pauseOffset
+                chronometer.stop()
+            }
+        }
 
         // Start
         buttonStart.setOnClickListener {
