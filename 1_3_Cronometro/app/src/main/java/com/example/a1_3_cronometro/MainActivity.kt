@@ -47,12 +47,9 @@ class MainActivity : AppCompatActivity() {
             if (isRunning){
                 chronometer.base=savedInstanceState.getLong(BASE_KEY)
                 chronometer.start()
-                pauseOffset=0
             }
             else{
-                pauseOffset=savedInstanceState.getLong(OFFSET_KEY)
                 chronometer.base=SystemClock.elapsedRealtime() - pauseOffset
-                chronometer.stop()
             }
         }
 
