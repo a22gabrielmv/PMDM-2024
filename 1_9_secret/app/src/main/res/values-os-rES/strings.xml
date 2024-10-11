@@ -1,3 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">1_9_secret</string>
+    <string name="welcome">Bienvenido a encriptor de mensajes</string>
+    <string name="start">Dale</string>
+    <string name="next">Si</string>
+    <string name="encrypt">Tu mensaje</string>
 </resources>

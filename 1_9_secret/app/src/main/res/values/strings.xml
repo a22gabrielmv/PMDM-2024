@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">1_9_secret</string>
+    <string name="welcome">Welcome to message encrypter</string>
+    <string name="start">Start</string>
+    <string name="next">Next</string>
+    <string name="encrypt">The message is</string>
+    <!-- TODO: Remove or change this placeholder text -->
 </resources>

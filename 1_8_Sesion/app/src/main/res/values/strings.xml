@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">1_8_Sesion</string>
+    <string name="user">User Name</string>
+    <string name="pass">Password</string>
+    <string name="log">Log in</string>
+    <string name="error">Error: incomplete fields</string>
+    <string name="userText">User: </string>
+    <string name="passText">Password: </string>
+
 </resources>

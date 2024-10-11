@@ -5,9 +5,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.activity.enableEdgeToEdge
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+import android.widget.Button
+import androidx.navigation.findNavController
 
 class WelcomeFragment : Fragment() {
     override fun onCreateView(
@@ -15,6 +14,16 @@ class WelcomeFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return super.onCreateView(inflater, container, savedInstanceState)
+        val view = inflater.inflate(R.layout.fragment_welcome, container, false)
+
+        val button = view.findViewById<Button>(R.id.button)
+
+        button.setOnClickListener {
+            val action = R.id.action_welcomeFragment_to_inputFragment
+            requireView().findNavController().navigate(action)
+        }
+
+        return view
     }
 }
+

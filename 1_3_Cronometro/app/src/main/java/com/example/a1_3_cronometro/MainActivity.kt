@@ -81,4 +81,35 @@ class MainActivity : AppCompatActivity() {
             isRunning = false
         }
     }
+
+    override fun onStop() {
+        if (isRunning){
+            pauseOffset = SystemClock.elapsedRealtime() - chronometer.base
+            chronometer.stop()
+        }
+        super.onStop()
+    }
+
+    override fun onRestart() {
+        if (isRunning){
+            chronometer.base = SystemClock.elapsedRealtime() - pauseOffset
+            chronometer.start()
+        }
+        super.onRestart()
+    }
+
+    override fun onPause() {
+        if (isRunning){
+            pauseOffset = SystemClock.elapsedRealtime() - chronometer.base
+            chronometer.stop()
+        }
+        super.onPause()
+    }
+    override fun onResume() {
+        if (isRunning){
+            chronometer.base = SystemClock.elapsedRealtime() - pauseOffset
+            chronometer.start()
+        }
+        super.onResume()
+    }
 }

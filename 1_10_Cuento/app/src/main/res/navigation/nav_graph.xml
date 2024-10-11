@@ -1,6 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/nav_graph">
-
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/cuentoStart">
+    <fragment
+        android:id="@+id/cuentoStart"
+        android:name="com.example.a1_10_cuento.CuentoStart"
+        android:label="cuento_start"
+        tools:layout="@layout/cuento_start" >
+        <action
+            android:id="@+id/action_cuentoStart_to_cuentoChoose"
+            app:destination="@id/cuentoChoose" />
+    </fragment>
+    <fragment
+        android:id="@+id/cuentoChoose"
+        android:name="com.example.a1_10_cuento.CuentoChoose"
+        android:label="cuento_choose"
+        tools:layout="@layout/cuento_choose" >
+        <action
+            android:id="@+id/action_cuentoChoose_to_cuentoCasa"
+            app:destination="@id/cuentoCasa" />
+        <action
+            android:id="@+id/action_cuentoChoose_to_cuentoBosque"
+            app:destination="@id/cuentoBosque" />
+        <argument
+            android:name="name"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/cuentoBosque"
+        android:name="com.example.a1_10_cuento.CuentoBosque"
+        android:label="cuento_bosque"
+        tools:layout="@layout/cuento_bosque" >
+        <action
+            android:id="@+id/action_cuentoBosque_to_cuentoStart"
+            app:destination="@id/cuentoStart" />
+        <argument
+            android:name="name"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/cuentoCasa"
+        android:name="com.example.a1_10_cuento.CuentoCasa"
+        android:label="cuento_casa"
+        tools:layout="@layout/cuento_casa" >
+        <action
+            android:id="@+id/action_cuentoCasa_to_cuentoStart"
+            app:destination="@id/cuentoStart" />
+        <argument
+            android:name="name"
+            app:argType="string" />
+    </fragment>
 </navigation>

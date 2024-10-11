@@ -1,6 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-             xmlns:app="http://schemas.android.com/apk/res-auto"
-             android:id="@+id/nav_graph.xml">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/welcomeFragment">
+
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.example.a1_9_secret.WelcomeFragment"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome" >
+        <action
+            android:id="@+id/action_welcomeFragment_to_inputFragment"
+            app:destination="@id/inputFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/inputFragment"
+        android:name="com.example.a1_9_secret.InputFragment"
+        android:label="fragment_input"
+        tools:layout="@layout/fragment_input" >
+        <action
+            android:id="@+id/action_inputFragment_to_resultFragment"
+            app:destination="@id/resultFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.example.a1_9_secret.ResultFragment"
+        android:label="fragment_result"
+        tools:layout="@layout/fragment_result" >
+
+        <argument
+            android:name="encryptedMessage"
+            app:argType="string" />
+
+        <action
+            android:id="@+id/action_resultFragment_to_welcomeFragment"
+            app:destination="@id/welcomeFragment" />
+    </fragment>
 
 </navigation>

@@ -6,21 +6,30 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.EditText
 import androidx.navigation.findNavController
+import androidx.navigation.fragment.findNavController
 
-override fun onCreateView(
-    inflater: LayoutInflater,
-    container: ViewGroup?,
-    savedInstanceState: Bundle?
-): View? {
-    val view = inflater.inflate(R.layout.fragment_welcome, container, false)
+class CuentoStart : Fragment() {
 
-    val button = view.findViewById<Button>(R.id.button)
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        val view = inflater.inflate(R.layout.cuento_start, container, false)
 
-    button.setOnClickListener {
-        val action = R.id.action_welcomeFragment_to_inputFragment
-        requireView().findNavController().navigate(action)
+        val button = view.findViewById<Button>(R.id.button)
+
+        val nameBox = view.findViewById<EditText>(R.id.nombrePersona)
+
+        button.setOnClickListener {
+            val name = nameBox.text.toString()
+            val action = CuentoStartDirections.actionCuentoStartToCuentoChoose(name)
+
+            findNavController().navigate(action)
+        }
+
+        return view
     }
-
-    return view
 }

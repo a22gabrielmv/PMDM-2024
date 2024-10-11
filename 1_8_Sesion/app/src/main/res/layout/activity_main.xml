@@ -11,27 +11,27 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="148dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="24dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_launcher_foreground" />
 
-    <com.google.android.material.textfield.TextInputEditText
+    <EditText
         android:id="@+id/user"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
-        android:hint="Nombre Usuario"
+        android:layout_marginTop="28dp"
+        android:hint="@string/user"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
-    <com.google.android.material.textfield.TextInputEditText
+    <EditText
         android:id="@+id/pass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="236dp"
-        android:hint="Contraseña"
+        android:hint="@string/pass"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -40,18 +40,21 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="128dp"
+        android:layout_marginStart="160dp"
         android:layout_marginTop="316dp"
-        android:text="Iniciar Sesion"
+        android:text="@string/log"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.google.android.material.textfield.TextInputEditText
+    <EditText
         android:id="@+id/result"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="388dp"
+        android:layout_marginTop="396dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

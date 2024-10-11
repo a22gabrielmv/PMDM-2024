@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3d0db9a7-44eb-4f00-9482-30dff0e49974" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/1_4_Conversion/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_4_Conversion/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_4_Conversion/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_4_Conversion/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_4_Conversion/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_4_Conversion/.idea/migrations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_4_Conversion/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_4_Conversion/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_4_Conversion/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_4_Conversion/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_4_Conversion/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_4_Conversion/app/src/androidTest/java/com/example/myapplication/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_4_Conversion/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_4_Conversion/app/src/main/java/com/example/myapplication/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_4_Conversion/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_4_Conversion/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_4_Conversion/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_4_Conversion/app/src/main/res/mipmap-anydpi/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_4_Conversion/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_4_Conversion/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_4_Conversion/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_4_Conversion/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_4_Conversion/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_4_Conversion/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_4_Conversion/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_4_Conversion/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_4_Conversion/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_4_Conversion/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_4_Conversion/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_4_Conversion/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_4_Conversion/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_4_Conversion/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_4_Conversion/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_4_Conversion/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_4_Conversion/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_4_Conversion/app/src/test/java/com/example/myapplication/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_4_Conversion/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_4_Conversion/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_4_Conversion/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_4_Conversion/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_4_Conversion/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_4_Conversion/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_4_Conversion/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_4_Conversion/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_3_Cronometro/app/src/main/java/com/example/a1_3_cronometro/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/1_3_Cronometro/app/src/main/java/com/example/a1_3_cronometro/MainActivity.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2mYmYZsLk9n7KgJHJiQD70XajMV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/a22gabrielmv/Documents/PMDM/1_3_Cronometro"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d0db9a7-44eb-4f00-9482-30dff0e49974" name="Changes" comment="" />
+      <created>1727261931316</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727261931316</updated>
+    </task>
+    <servers />
+  </component>
+</project>
