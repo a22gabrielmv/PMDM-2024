@@ -12,9 +12,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
-        android:text="Elije un cuento"
-        android:textSize="16dp"
-        android:textColor="@color/black"
+        android:text="Elije una temática"
+        android:textSize="25dp"
+        android:textColor="@color/orange"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -30,17 +30,26 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <ImageView
-            android:id="@+id/imgBosque"
-            android:layout_width="118dp"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/bosque" />
+            android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/tituloBosque"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Bosque Maldito" />
+            <ImageView
+                android:id="@+id/imgBosque"
+                android:layout_width="118dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/bosque" />
+
+            <TextView
+                android:id="@+id/tituloBosque"
+                android:layout_width="wrap_content"
+                android:textColor="@color/orange"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content"
+                android:text="Bosque Maldito" />
+        </LinearLayout>
 
     </androidx.cardview.widget.CardView>
 
@@ -54,17 +63,27 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <ImageView
-            android:id="@+id/imgCasa"
-            android:layout_width="118dp"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/casa" />
+            android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/tituloCasa"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Casa Encantada" />
+            <ImageView
+                android:id="@+id/imgCasa"
+                android:layout_width="118dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/casa" />
+
+            <TextView
+                android:id="@+id/tituloCasa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/orange"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="10dp"
+                android:text="Casa Encantada" />
+
+        </LinearLayout>
 
     </androidx.cardview.widget.CardView>
 
