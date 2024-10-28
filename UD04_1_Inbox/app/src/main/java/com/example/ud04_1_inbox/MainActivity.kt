@@ -45,7 +45,6 @@ class MainActivity : AppCompatActivity() {
 
         val bottomBar = findViewById<BottomNavigationView>(R.id.botton_navigation)
         bottomBar.setupWithNavController(navController)
-        //wafaw
 
 
         val view = findViewById<NavigationView>(R.id.nav_side)
