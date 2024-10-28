@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity() {
         val bottomBar = findViewById<BottomNavigationView>(R.id.botton_navigation)
         bottomBar.setupWithNavController(navController)
 
-
+        //feset
         val view = findViewById<NavigationView>(R.id.nav_side)
         view.setupWithNavController(navController)
 
