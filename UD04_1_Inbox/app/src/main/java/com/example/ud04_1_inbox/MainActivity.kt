@@ -16,6 +16,7 @@ import androidx.navigation.ui.NavigationUI
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.appbar.MaterialToolbar
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.google.android.material.navigation.NavigationView
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -44,8 +45,11 @@ class MainActivity : AppCompatActivity() {
 
         val bottomBar = findViewById<BottomNavigationView>(R.id.botton_navigation)
         bottomBar.setupWithNavController(navController)
+        //wafaw
 
-        val bottomLat = findViewById<BottomNavigationView>(R.id.botton_navigation)
+
+        val view = findViewById<NavigationView>(R.id.nav_side)
+        view.setupWithNavController(navController)
 
     }
 
